@@ -1,6 +1,7 @@
 package br.com.automacao.web.steps;
 
 import br.com.automacao.web.test.ContatoPage;
+import br.com.automacao.web.test.EntradasPage;
 import br.com.automacao.web.test.MenuPage;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Então;
@@ -29,7 +30,11 @@ public class ContatoSteps {
 
 		MenuPage menuPage = new MenuPage();
 		menuPage.acessarPaginaEntradasWPCF7();
-
+		
+		/*
+		 * EntradasPage entradasPage = new EntradasPage();
+		 * entradasPage.consultarEntrada();
+		 */
 	}
 
 }

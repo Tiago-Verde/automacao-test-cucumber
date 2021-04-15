@@ -46,11 +46,11 @@ public class ContatoPage extends ContatoMap {
 
 	private String calcularCaptcha() {
 
-		String captcha = labelCaptcha.getText(); // 3+1, 10+2, 1+1
+		String captcha = labelCaptcha.getText(); 
 
 		String[] splitted = captcha.split("\\+");
-		String splitted1 = splitted[0]; // Valor "3"
-		String splitted2 = splitted[1]; // Valor "1"
+		String splitted1 = splitted[0]; 
+		String splitted2 = splitted[1]; 
 
 		Integer valor1 = Integer.parseInt(splitted1);
 		Integer valor2 = Integer.parseInt(splitted2);
